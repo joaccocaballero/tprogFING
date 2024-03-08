@@ -1,0 +1,23 @@
+html{
+    border: 0;
+    height: 100vh;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 15% 75% 10%;
+    background-color: white;
+    height: 91vh;
+}
+
+#sectionMenu{
+    grid-column: 1/2;
+    background-color: rgb(183, 183, 183);
+}
+
+#sectionKeywords{
+    grid-column: 3/4;
+    background-color: white(183, 183, 183);
+
+}
+

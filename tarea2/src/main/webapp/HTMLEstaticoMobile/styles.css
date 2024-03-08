@@ -1,0 +1,8 @@
+#profile_img_container {
+    display: flex;
+}
+@media (max-width: 323px) {
+    #profile_img_container {
+        display: none;
+    }
+}
